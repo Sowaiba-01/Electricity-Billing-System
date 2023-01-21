@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="bgwidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#bgwidget{
+	background-image: url(:/newPrefix/vecteezy_hexagon-abstract-modern-background-with-overlapping-triangle_5909540.jpg);
+background-repeat: no-repeat;
+};</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>50</number>
+      </property>
+      <property name="topMargin">
+       <number>50</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>50</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="acceptDrops">
+         <bool>true</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:white;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QPushButton" name="AdminLoginBtn">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>490</y>
+           <width>411</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color: rgb(72,61,139);
+color:white;
+border-radius:20px;
+font-size:20px;
+}
+QPushButton:hover
+{
+background-color: white;
+color:rgb(72,61,139);
+border:1px solid rgb(72,61,139);
+transform:scale(1.2);
+}</string>
+         </property>
+         <property name="text">
+          <string>Load Data</string>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>100</y>
+           <width>1001</width>
+           <height>361</height>
+          </rect>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="whatsThis">
+          <UInt>0</UInt>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(202, 202, 202);
+color: rgb(0, 0, 127);</string>
+         </property>
+         <property name="gridStyle">
+          <enum>Qt::NoPen</enum>
+         </property>
+         <property name="columnCount">
+          <number>9</number>
+         </property>
+         <row>
+          <property name="text">
+           <string>Customer 1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 5</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 6</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 7</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 8</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 9</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 10</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 11</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Customer 12</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Reference No</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>First Name</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Middle Name</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Last Name</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Street</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Division</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+            <strikeout>false</strikeout>
+           </font>
+          </property>
+          <property name="background">
+           <color>
+            <red>255</red>
+            <green>255</green>
+            <blue>255</blue>
+           </color>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>City</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Meter No</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Password</string>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>true</italic>
+           </font>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>255</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>127</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="flags">
+           <set>ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="background">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>255</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="foreground">
+           <brush brushstyle="NoBrush">
+            <color alpha="255">
+             <red>255</red>
+             <green>0</green>
+             <blue>127</blue>
+            </color>
+           </brush>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>10</y>
+           <width>281</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family:'Montserrat';
+font-size:40px;
+color: rgb(72,61,139);
+</string>
+         </property>
+         <property name="text">
+          <string>Customer Data</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../Downloads/source.qrc"/>
+  <include location="../garbage/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

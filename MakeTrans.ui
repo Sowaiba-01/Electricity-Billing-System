@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="bgwidget" native="true">
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#bgwidget
+{
+background-image: url(:/newPrefix/Desktop/images.qrc/home-hero-left.webp);
+background-repeat:no-repeat;
+};
+</string>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>931</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox#groupBox
+{
+border-radius:10px;
+background-color: rgb(255, 255, 255);
+};
+
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>541</width>
+         <height>421</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/Desktop/images.qrc/mobile-banking-modern-flat-concept-for-web-banner-design-man-client-sends-money-and-confirms-secure-transaction-with-secret-password-using-smartphone-illustration-with-isolated-people-scene-free-v.jpg);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../garbage/Make Transaction Image.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>20</y>
+         <width>311</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>15</pointsize>
+         <weight>10</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 80 15pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 127);</string>
+       </property>
+       <property name="text">
+        <string>Make Your Transactions Online!</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="CardPin_2">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>230</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Pin</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>120</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>ATM Card No</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ATMCardNo_2">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>150</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Card No</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>200</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Card Pin</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MakeTransaction_2">
+       <property name="geometry">
+        <rect>
+         <x>620</x>
+         <y>370</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color:rgb(30,144,255);
+color:white;
+border-radius:20px;
+font-size:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(30,144,255);
+border:1px solid rgb(30,144,255);
+transform:scale(1.2);
+}</string>
+       </property>
+       <property name="text">
+        <string>Make Transaction</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(30,144,255);</string>
+       </property>
+       <property name="text">
+        <string>ⓔ IESCO</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="CardPin_3">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>310</y>
+         <width>311</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+       <property name="placeholderText">
+        <string>Enter your Reference No</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>280</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Reference No</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../interface/source.qrc"/>
+  <include location="../garbage/source.qrc"/>
+  <include location="../../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1390</width>
+    <height>744</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="bgwidget" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>1500</width>
+       <height>1000</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#bgwidget{
+	background-image: url(:/newPrefix/vecteezy_hexagon-abstract-modern-background-with-overlapping-triangle_5909540.jpg);
+background-repeat:no-repeat;
+};
+</string>
+     </property>
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>50</y>
+        <width>1221</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame
+{
+	
+	background-color:white;
+border-radius: 10px;
+};</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>10</y>
+         <width>591</width>
+         <height>86</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'Montserrat';
+font-size:30px;
+color:rgb(52, 45, 113);</string>
+       </property>
+       <property name="text">
+        <string>Generate Bill</string>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>100</y>
+         <width>521</width>
+         <height>411</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="title">
+        <string>Bill Info</string>
+       </property>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>100</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Date Issued</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>260</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Previous Reading</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="BillMeterNo">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>210</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>180</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Reference No</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="BillDueDate">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>130</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="BillDateIssued">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>90</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>220</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Meter No</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>60</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Bill ID</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="BillRefNo">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>170</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="MeterPrevRdng">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>250</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="Bill_ID">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>140</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Due Date</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="MeterPresRdng">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>290</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>300</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Present Reading</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="Units_consumed">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>330</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>340</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Units Consumed</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>100</y>
+         <width>521</width>
+         <height>281</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="title">
+        <string>Taxes Applied</string>
+       </property>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Electricity Duty</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ElecDuty_tax">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>40</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>90</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>TV Fee</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="TVFee_TAx">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>80</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_39">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>GST</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="GST_tax">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>120</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="IncomeTax">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>160</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>170</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Income Tax</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>210</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>GRAND TOTAL</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="TaxTotal">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>390</y>
+         <width>521</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="title">
+        <string>Total Bill</string>
+       </property>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>50</y>
+          <width>121</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Total Bill</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="BillTotal">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>40</y>
+          <width>311</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-bottom:1px solid black;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="GenerateBill">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>530</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color:rgb(52, 45, 113);
+color:white;
+border-radius:20px;
+font-size:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(52, 45, 113);
+border:1px solid rgb(52, 45, 113);
+transform:scale(1.2);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Generate</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ExitButton">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>530</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color:rgb(52, 45, 113);
+color:white;
+border-radius:20px;
+font-size:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(52, 45, 113);
+border:1px solid rgb(52, 45, 113);
+transform:scale(1.2);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../garbage/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

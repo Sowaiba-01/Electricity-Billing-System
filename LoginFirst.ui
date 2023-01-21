@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>554</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="bgwidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#bgwidget{
+	
+	background-image: url(:/newPrefix/Desktop/images.qrc/home-hero-left.webp);
+background-repeat:no-repeat;
+};
+</string>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>49</y>
+        <width>951</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;
+background-color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>491</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/newPrefix/Desktop/images.qrc/images.png);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../../images.qrc">:/newPrefix/Desktop/images.qrc/94ca73be87d353707c7f737fbdcf79b2.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>300</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(245,245,245);
+color:black;
+border-radius:20px;
+
+}
+QPushButton:hover
+{
+
+background-color: black;
+color:rgb(245,245,245);
+border-radius:20px;
+
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Admin</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>250</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color:rgb(30,144,255);
+color:white;
+border-radius:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(30,144,255);
+border:1px solid rgb(30,144,255);
+transform:scale(1.2);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Customer</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>50</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'Montserrat';
+font-size:25px;
+</string>
+       </property>
+       <property name="text">
+        <string>Welcome to IESCO:)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>100</y>
+         <width>371</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>IESCO's core function is to supply, distribute and sell power 
+(electricity) in the area from Attock to Jhelum, and from the 
+river Indus to River Neelum in Kashmir.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>170</y>
+         <width>261</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font-family:'Montserrat';
+font-size:20px;
+</string>
+       </property>
+       <property name="text">
+        <string>Login In System As:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>360</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images.qrc/facebook.jpg</normaloff>../images.qrc/facebook.jpg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>16</width>
+         <height>16</height>
+        </size>
+       </property>
+       <property name="autoDefault">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>720</x>
+         <y>360</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images.qrc/twitter.png</normaloff>../images.qrc/twitter.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>360</y>
+         <width>41</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../images.qrc/insta.jpg</normaloff>../images.qrc/insta.jpg</iconset>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../interface/source.qrc"/>
+  <include location="../../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

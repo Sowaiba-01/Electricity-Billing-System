@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/newPrefix/home-hero-left.webp);
+background-repeat:no-repeat;</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>40</number>
+      </property>
+      <property name="topMargin">
+       <number>40</number>
+      </property>
+      <property name="rightMargin">
+       <number>50</number>
+      </property>
+      <property name="bottomMargin">
+       <number>40</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="frame">
+        <property name="styleSheet">
+         <string notr="true">QFrame#frame
+{
+background-color:white;
+border-radius:10px;
+};</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>50</y>
+           <width>271</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family:'Montserrat';
+font-size:30px;
+
+</string>
+         </property>
+         <property name="text">
+          <string>Welcome Back:)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>110</y>
+           <width>491</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family:'Montserrat';
+font-size:12px;
+line-height:2px;
+</string>
+         </property>
+         <property name="text">
+          <string>IESCO was formed in 1998 to take over the assets, functions and responsibilities of the erstwhile Islamabad Area Electricity Board, which was then a division of WAPDA. It serves 3.2 million consumers directly, but touches the lives of more than 25 million people living in the 6 districts.</string>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignJustify|Qt::AlignTop</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>360</y>
+           <width>201</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgb(30,144,255);
+color:white;
+border-radius:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(30,144,255);
+border:1px solid rgb(30,144,255);
+transform:scale(1.2);
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Exit</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>300</y>
+           <width>201</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton:hover{
+background-color:rgb(30,144,255);
+color:white;
+border-radius:20px;
+}
+QPushButton
+{
+border-radius:20px;
+background-color: white;
+color:black;
+border:1px solid rgb(30,144,255);
+transform:scale(1.2);
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Give Feedback</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>240</y>
+           <width>201</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgb(30,144,255);
+color:white;
+border-radius:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(30,144,255);
+border:1px solid rgb(30,144,255);
+transform:scale(1.2);
+padding:10px;
+}</string>
+         </property>
+         <property name="text">
+          <string> Pay Bill</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>640</x>
+           <y>50</y>
+           <width>421</width>
+           <height>411</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-image: url(:/newPrefix/man-using-laptop-5612503-4678408.webp);
+background-repeat:no-repeat;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../garbage/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

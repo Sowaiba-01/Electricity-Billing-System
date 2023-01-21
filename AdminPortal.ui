@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1216</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="bgwidget" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget#bgwidget
+{
+background-image: url(:/newPrefix/Desktop/images.qrc/vecteezy_hexagon-abstract-modern-background-with-overlapping-triangle_5909540.jpg);
+background-repeat:no-repeat;
+};
+</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="leftMargin">
+       <number>40</number>
+      </property>
+      <property name="topMargin">
+       <number>40</number>
+      </property>
+      <property name="rightMargin">
+       <number>40</number>
+      </property>
+      <property name="bottomMargin">
+       <number>40</number>
+      </property>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="styleSheet">
+         <string notr="true">QGroupBox#groupBox
+{
+background-color: rgb(255, 255, 255);
+border-radius:10px;
+}
+
+
+</string>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>60</y>
+           <width>351</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family:'Montserrat';
+font-size:25px;
+</string>
+         </property>
+         <property name="text">
+          <string>Welcome To The Admin Portal</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>350</y>
+           <width>181</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Shell Dlg 2</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgb(52, 45, 113);
+color:white;
+border-radius:20px;
+}
+QPushButton:hover
+{
+
+background-color: white;
+color:rgb(52, 45, 113);
+border:1px solid rgb(52, 45, 113);
+transform:scale(1.2);
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Login</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>200</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family:'Montserrat';border:none;
+border-bottom:1px solid black;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Enter Your Name</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>100</x>
+           <y>280</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border:none;
+border-bottom:1px solid black;
+font-family:'Montserrat';</string>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+         <property name="placeholderText">
+          <string>Enter Password</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>180</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size:12px;
+font-family:'Montserrat';</string>
+         </property>
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>260</y>
+           <width>111</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-size:12px;
+font-family:'Montserrat';</string>
+         </property>
+         <property name="text">
+          <string>Password</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>466</x>
+           <y>32</y>
+           <width>641</width>
+           <height>451</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+background-image: url(:/newPrefix/Desktop/images.qrc/istockphoto-1217246641-612x612.jpg);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../../images.qrc">:/newPrefix/Desktop/images.qrc/istockphoto-1217246641-612x612.jpg</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>980</x>
+           <y>20</y>
+           <width>91</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>15</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(52, 45, 113);</string>
+         </property>
+         <property name="text">
+          <string>ⓔ IESCO</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../interface/source.qrc"/>
+  <include location="../garbage/source.qrc"/>
+  <include location="../../images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
